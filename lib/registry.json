@@ -1,0 +1,1003 @@
+{
+  "apiVersion": 1,
+  "libraries": {
+    "blob": {
+      "version": {
+        "major": "1",
+        "minor": "0"
+      },
+      "machineName": "blob",
+      "repository": "git@github.com:h5p/blob.git"
+    },
+    "docxgen": {
+      "version": {
+        "major": "1",
+        "minor": "0"
+      },
+      "machineName": "docxgenJS",
+      "repository": "git@github.com:h5p/docxgen.git"
+    },
+    "downloadify": {
+      "version": {
+        "major": "1",
+        "minor": "0"
+      },
+      "machineName": "downloadify",
+      "repository": "git@github.com:h5p/downloadify.git",
+      "dependencies": ["swfobject"]
+    },
+    "drop": {
+      "version": {
+        "major": "1",
+        "minor": "0"
+      },
+      "machineName": "Drop",
+      "repository": "git@github.com:h5p/drop.git",
+      "dependencies": ["tether"]
+    },
+    "embeddedjs": {
+      "version": {
+        "major": "1",
+        "minor": "0"
+      },
+      "machineName": "EmbeddedJS",
+      "repository": "git@github.com:h5p/embeddedjs.git"
+    },
+    "filesaver": {
+      "version": {
+        "major": "1",
+        "minor": "0"
+      },
+      "machineName": "filesaver",
+      "repository": "git@github.com:h5p/filesaver.git",
+      "dependencies": ["blob"]
+    },
+    "flowplayer": {
+      "version": {
+        "major": "1",
+        "minor": "0"
+      },
+      "machineName": "flowplayer",
+      "repository": "git@github.com:h5p/flowplayer.git"
+    },
+    "font-awesome": {
+      "version": {
+        "major": "4",
+        "minor": "5"
+      },
+      "machineName": "FontAwesome",
+      "repository": "git@github.com:h5p/font-awesome.git"
+    },
+    "h5p-accordion": {
+      "version": {
+        "major": "1",
+        "minor": "0"
+      },
+      "machineName": "H5P.Accordion",
+      "repository": "git@github.com:h5p/h5p-accordion.git",
+      "dependencies": ["font-awesome"]
+    },
+    "h5p-advanced-text": {
+      "version": {
+        "major": "1",
+        "minor": "1"
+      },
+      "machineName": "H5P.AdvancedText",
+      "repository": "git@github.com:h5p/h5p-advanced-text.git"
+    },
+    "h5p-api": {
+      "version": {
+        "major": "1",
+        "minor": "0"
+      },
+      "machineName": "H5P.API",
+      "repository": "git@github.com:h5p/h5p-api.git"
+    },
+    "h5p-appear-in": {
+      "version": {
+        "major": "1",
+        "minor": "0"
+      },
+      "machineName": "H5P.AppearIn",
+      "repository": "git@github.com:h5p/h5p-appear-in.git"
+    },
+    "h5p-arithmetic-quiz": {
+      "version": {
+        "major": "1",
+        "minor": "1"
+      },
+      "machineName": "H5P.ArithmeticQuiz",
+      "repository": "git@github.com:h5p/h5p-arithmetic-quiz.git",
+      "dependencies": ["h5p-joubel-ui", "h5p-soundjs", "odometer"]
+    },
+    "h5p-audio": {
+      "version": {
+        "major": "1",
+        "minor": "4"
+      },
+      "machineName": "H5P.Audio",
+      "repository": "git@github.com:h5p/h5p-audio.git",
+      "dependencies": ["flowplayer", "font-awesome"]
+    },
+    "h5p-blanks": {
+      "version": {
+        "major": "1",
+        "minor": "12"
+      },
+      "machineName": "H5P.Blanks",
+      "repository": "git@github.com:h5p/h5p-blanks.git",
+      "dependencies": ["font-awesome", "h5p-joubel-ui", "h5p-question"]
+    },
+    "h5p-boardgame": {
+      "version": {
+        "major": "1",
+        "minor": "6"
+      },
+      "machineName": "H5P.Boardgame",
+      "repository": "git@github.com:h5p/h5p-boardgame.git",
+      "dependencies": ["embeddedjs", "h5p-question-set", "h5p-video"]
+    },
+    "h5p-chart": {
+      "version": {
+        "major": "1",
+        "minor": "2"
+      },
+      "machineName": "H5P.Chart",
+      "repository": "git@github.com:h5p/h5p-chart.git",
+      "dependencies": ["h5p-editor-color-selector"]
+    },
+    "h5p-collage": {
+      "version": {
+        "major": "0",
+        "minor": "3"
+      },
+      "machineName": "H5P.Collage",
+      "repository": "git@github.com:h5p/h5p-collage.git",
+      "dependencies": ["h5p-editor-collage"]
+    },
+    "h5p-column": {
+      "version": {
+        "major": "1",
+        "minor": "12"
+      },
+      "machineName": "H5P.Column",
+      "repository": "git@bitbucket.org:calmisland/h5p-column.git"
+    },
+    "h5p-continuous-text": {
+      "version": {
+        "major": "1",
+        "minor": "2"
+      },
+      "machineName": "H5P.ContinuousText",
+      "repository": "git@github.com:h5p/h5p-continuous-text.git"
+    },
+    "h5p-counter": {
+      "version": {
+        "major": "1",
+        "minor": "0"
+      },
+      "machineName": "H5P.Counter",
+      "repository": "git@github.com:h5p/h5p-counter.git"
+    },
+    "h5p-course-presentation": {
+      "version": {
+        "major": "1",
+        "minor": "22"
+      },
+      "machineName": "H5P.CoursePresentation",
+      "repository": "git@bitbucket.org:calmisland/h5p-course-presentation.git",
+      "dependencies": [
+        "font-awesome",
+        "h5p-font-icons",
+        "h5p-joubel-ui",
+        "h5p-editor-course-presentation"
+      ]
+    },
+    "h5p-dialogcards": {
+      "version": {
+        "major": "1",
+        "minor": "8"
+      },
+      "machineName": "H5P.Dialogcards",
+      "repository": "git@github.com:h5p/h5p-dialogcards.git",
+      "dependencies": [
+        "font-awesome",
+        "h5p-audio",
+        "h5p-joubel-ui",
+        "h5p-editor-vertical-tabs"
+      ]
+    },
+    "h5p-documentation-tool": {
+      "version": {
+        "major": "1",
+        "minor": "8"
+      },
+      "machineName": "H5P.DocumentationTool",
+      "repository": "git@github.com:h5p/h5p-documentation-tool.git",
+      "dependencies": [
+        "font-awesome",
+        "h5p-joubel-ui",
+        "h5p-editor-vertical-tabs"
+      ]
+    },
+    "h5p-document-export-page": {
+      "version": {
+        "major": "1",
+        "minor": "5"
+      },
+      "machineName": "H5P.DocumentExportPage",
+      "repository": "git@github.com:h5p/h5p-document-export-page.git",
+      "dependencies": [
+        "filesaver",
+        "font-awesome",
+        "h5p-export-page",
+        "h5p-joubel-ui",
+        "mustache-js"
+      ]
+    },
+    "h5p-drag-n-bar": {
+      "version": {
+        "major": "1",
+        "minor": "5"
+      },
+      "machineName": "H5P.DragNBar",
+      "repository": "git@github.com:h5p/h5p-drag-n-bar.git",
+      "dependencies": ["h5p-drag-n-drop", "h5p-drag-n-resize", "h5p-font-icons"]
+    },
+    "h5p-drag-n-drop": {
+      "version": {
+        "major": "1",
+        "minor": "1"
+      },
+      "machineName": "H5P.DragNDrop",
+      "repository": "git@github.com:h5p/h5p-drag-n-drop.git"
+    },
+    "h5p-drag-n-resize": {
+      "version": {
+        "major": "1",
+        "minor": "2"
+      },
+      "machineName": "H5P.DragNResize",
+      "repository": "git@github.com:h5p/h5p-drag-n-resize.git"
+    },
+    "h5p-drag-n-sort": {
+      "version": {
+        "major": "1",
+        "minor": "1"
+      },
+      "machineName": "H5P.DragNSort",
+      "repository": "git@github.com:h5p/h5p-drag-n-sort.git",
+      "dependencies": ["h5p-drag-n-drop"]
+    },
+    "h5p-drag-question": {
+      "version": {
+        "major": "1",
+        "minor": "13"
+      },
+      "machineName": "H5P.DragQuestion",
+      "repository": "git@bitbucket.org:calmisland/h5p-drag-question.git",
+      "dependencies": [
+        "font-awesome",
+        "h5p-joubel-ui",
+        "h5p-question",
+        "h5p-editor-drag-question",
+        "jquery-ui"
+      ]
+    },
+    "h5p-drag-text": {
+      "version": {
+        "major": "1",
+        "minor": "8"
+      },
+      "machineName": "H5P.DragText",
+      "repository": "git@github.com:h5p/h5p-drag-text.git",
+      "dependencies": [
+        "font-awesome",
+        "h5p-joubel-ui",
+        "h5p-question",
+        "jquery-ui"
+      ]
+    },
+    "h5p-exportable-text-area": {
+      "version": {
+        "major": "1",
+        "minor": "3"
+      },
+      "machineName": "H5P.ExportableTextArea",
+      "repository": "git@github.com:h5p/h5p-exportable-text-area.git",
+      "dependencies": ["downloadify", "filesaver"]
+    },
+    "h5p-export-page": {
+      "version": {
+        "major": "1",
+        "minor": "1"
+      },
+      "machineName": "H5P.ExportPage",
+      "repository": "git@github.com:h5p/h5p-export-page.git",
+      "dependencies": ["docxgen"]
+    },
+    "h5p-facebook-page-feed": {
+      "version": {
+        "major": "1",
+        "minor": "0"
+      },
+      "machineName": "H5P.FacebookPageFeed",
+      "repository": "git@github.com:GriffWith/h5p-facebook-page-feed.git"
+    },
+    "h5p-flashcards": {
+      "version": {
+        "major": "1",
+        "minor": "5"
+      },
+      "machineName": "H5P.Flashcards",
+      "repository": "git@bitbucket.org:calmisland/h5p-flashcards.git",
+      "dependencies": [
+        "font-awesome",
+        "h5p-font-icons",
+        "h5p-joubel-ui",
+        "h5p-editor-vertical-tabs"
+      ]
+    },
+    "h5p-font-icons": {
+      "version": {
+        "major": "1",
+        "minor": "0"
+      },
+      "machineName": "H5P.FontIcons",
+      "repository": "git@github.com:h5p/h5p-font-icons.git"
+    },
+    "h5p-goals-assessment-page": {
+      "version": {
+        "major": "1",
+        "minor": "4"
+      },
+      "machineName": "H5P.GoalsAssessmentPage",
+      "repository": "git@github.com:h5p/h5p-goals-assessment-page.git",
+      "dependencies": ["mustache-js"]
+    },
+    "h5p-goals-page": {
+      "version": {
+        "major": "1",
+        "minor": "5"
+      },
+      "machineName": "H5P.GoalsPage",
+      "repository": "git@github.com:h5p/h5p-goals-page.git",
+      "dependencies": ["font-awesome", "h5p-joubel-ui", "mustache-js"]
+    },
+    "h5p-go-to-question": {
+      "version": {
+        "major": "1",
+        "minor": "3"
+      },
+      "machineName": "H5P.GoToQuestion",
+      "repository": "git@github.com:h5p/h5p-go-to-question.git",
+      "dependencies": ["h5p-joubel-ui", "h5p-editor-timecode"]
+    },
+    "h5p-greeting-card": {
+      "version": {
+        "major": "1",
+        "minor": "0"
+      },
+      "machineName": "H5P.GreetingCard",
+      "repository": "git@github.com:h5p/h5p-greeting-card.git"
+    },
+    "h5p-guess-the-answer": {
+      "version": {
+        "major": "1",
+        "minor": "4"
+      },
+      "machineName": "H5P.GuessTheAnswer",
+      "repository": "git@github.com:h5p/h5p-guess-the-answer.git",
+      "dependencies": ["font-awesome"]
+    },
+    "h5p-guided-tour": {
+      "version": {
+        "major": "1",
+        "minor": "0"
+      },
+      "machineName": "H5P.GuidedTour",
+      "repository": "git@github.com:h5p/h5p-guided-tour.git",
+      "dependencies": ["shepherd"]
+    },
+    "h5p-iframe-embed": {
+      "version": {
+        "major": "1",
+        "minor": "0"
+      },
+      "machineName": "H5P.IFrameEmbed",
+      "repository": "git@github.com:h5p/h5p-iframe-embed.git"
+    },
+    "h5p-image": {
+      "version": {
+        "major": "1",
+        "minor": "1"
+      },
+      "machineName": "H5P.Image",
+      "repository": "git@github.com:h5p/h5p-image.git"
+    },
+    "h5p-image-hotspot-question": {
+      "version": {
+        "major": "1",
+        "minor": "8"
+      },
+      "machineName": "H5P.ImageHotspotQuestion",
+      "repository": "git@bitbucket.org:calmisland/h5p-image-hotspot-question.git",
+      "dependencies": [
+        "h5p-question",
+        "h5p-editor-image-hotspot-question",
+        "h5p-editor-wizard"
+      ]
+    },
+    "h5p-image-hotspots": {
+      "version": {
+        "major": "1",
+        "minor": "8"
+      },
+      "machineName": "H5P.ImageHotspots",
+      "repository": "git@github.com:h5p/h5p-image-hotspots.git",
+      "dependencies": [
+        "font-awesome",
+        "h5p-transition",
+        "h5p-editor-color-selector",
+        "h5p-editor-image-coordinate-selector"
+      ]
+    },
+    "h5p-interactive-video": {
+      "version": {
+        "major": "1",
+        "minor": "22"
+      },
+      "machineName": "H5P.InteractiveVideo",
+      "repository": "git@bitbucket.org:calmisland/h5p-interactive-video.git",
+      "dependencies": [
+        "font-awesome",
+        "h5p-drag-n-bar",
+        "h5p-video",
+        "h5p-editor-interactive-video",
+        "h5p-editor-wizard",
+        "jquery-ui"
+      ]
+    },
+    "h5p-joubel-ui": {
+      "version": {
+        "major": "1",
+        "minor": "3"
+      },
+      "machineName": "H5P.JoubelUI",
+      "repository": "git@github.com:h5p/h5p-joubel-ui.git",
+      "dependencies": [
+        "drop",
+        "font-awesome",
+        "h5p-font-icons",
+        "h5p-transition"
+      ]
+    },
+    "h5p-link": {
+      "version": {
+        "major": "1",
+        "minor": "3"
+      },
+      "machineName": "H5P.Link",
+      "repository": "git@github.com:h5p/h5p-link.git",
+      "dependencies": ["h5p-editor-url-field"]
+    },
+    "h5p-mark-the-words": {
+      "version": {
+        "major": "1",
+        "minor": "9"
+      },
+      "machineName": "H5P.MarkTheWords",
+      "repository": "git@github.com:h5p/h5p-mark-the-words.git",
+      "dependencies": ["font-awesome", "h5p-joubel-ui", "h5p-question"]
+    },
+    "h5p-memory-game": {
+      "version": {
+        "major": "1",
+        "minor": "3"
+      },
+      "machineName": "H5P.MemoryGame",
+      "repository": "git@bitbucket.org:calmisland/h5p-memory-game.git",
+      "dependencies": [
+        "font-awesome",
+        "h5p-editor-color-selector",
+        "h5p-editor-vertical-tabs"
+      ]
+    },
+    "h5p-multi-choice": {
+      "version": {
+        "major": "1",
+        "minor": "14"
+      },
+      "machineName": "H5P.MultiChoice",
+      "repository": "git@github.com:h5p/h5p-multi-choice.git",
+      "dependencies": [
+        "embeddedjs",
+        "font-awesome",
+        "h5p-joubel-ui",
+        "h5p-question"
+      ]
+    },
+    "h5p-nil": {
+      "version": {
+        "major": "1",
+        "minor": "0"
+      },
+      "machineName": "H5P.Nil",
+      "repository": "git@github.com:h5p/h5p-nil.git"
+    },
+    "h5p-open-ended-question": {
+      "version": {
+        "major": "1",
+        "minor": "0"
+      },
+      "machineName": "H5P.OpenEndedQuestion",
+      "repository": "git@github.com:h5p/h5p-open-ended-question.git"
+    },
+    "h5p-question": {
+      "version": {
+        "major": "1",
+        "minor": "4"
+      },
+      "machineName": "H5P.Question",
+      "repository": "git@github.com:h5p/h5p-question.git",
+      "dependencies": ["font-awesome", "h5p-joubel-ui"]
+    },
+    "h5p-questionnaire": {
+      "version": {
+        "major": "1",
+        "minor": "3"
+      },
+      "machineName": "H5P.Questionnaire",
+      "repository": "git@github.com:h5p/h5p-questionnaire.git",
+      "dependencies": [
+        "font-awesome",
+        "h5p-open-ended-question",
+        "h5p-simple-multiple-choice",
+        "h5p-editor-vertical-tabs"
+      ]
+    },
+    "h5p-question-set": {
+      "version": {
+        "major": "1",
+        "minor": "17"
+      },
+      "machineName": "H5P.QuestionSet",
+      "repository": "git@github.com:h5p/h5p-question-set.git",
+      "dependencies": [
+        "embeddedjs",
+        "font-awesome",
+        "h5p-joubel-ui",
+        "h5p-video",
+        "h5p-editor-question-set-textual-editor",
+        "h5p-editor-vertical-tabs"
+      ]
+    },
+    "h5p-simple-multiple-choice": {
+      "version": {
+        "major": "1",
+        "minor": "1"
+      },
+      "machineName": "H5P.SimpleMultiChoice",
+      "repository": "git@github.com:h5p/h5p-simple-multiple-choice.git"
+    },
+    "h5p-single-choice-set": {
+      "version": {
+        "major": "1",
+        "minor": "11"
+      },
+      "machineName": "H5P.SingleChoiceSet",
+      "repository": "git@github.com:h5p/h5p-single-choice-set.git",
+      "dependencies": [
+        "font-awesome",
+        "h5p-joubel-ui",
+        "h5p-question",
+        "h5p-soundjs",
+        "h5p-transition",
+        "h5p-editor-vertical-tabs"
+      ]
+    },
+    "h5p-soundjs": {
+      "version": {
+        "major": "1",
+        "minor": "0"
+      },
+      "machineName": "H5P.SoundJS",
+      "repository": "git@github.com:h5p/h5p-soundjs.git"
+    },
+    "h5p-standard-page": {
+      "version": {
+        "major": "1",
+        "minor": "5"
+      },
+      "machineName": "H5P.StandardPage",
+      "repository": "git@github.com:h5p/h5p-standard-page.git",
+      "dependencies": [
+        "h5p-image",
+        "h5p-text",
+        "h5p-text-input-field",
+        "mustache-js"
+      ]
+    },
+    "h5p-summary": {
+      "version": {
+        "major": "1",
+        "minor": "10"
+      },
+      "machineName": "H5P.Summary",
+      "repository": "git@github.com:h5p/h5p-summary.git",
+      "dependencies": [
+        "font-awesome",
+        "h5p-joubel-ui",
+        "h5p-question",
+        "h5p-editor-summary-textual-editor"
+      ]
+    },
+    "h5p-table": {
+      "version": {
+        "major": "1",
+        "minor": "1"
+      },
+      "machineName": "H5P.Table",
+      "repository": "git@github.com:h5p/h5p-table.git"
+    },
+    "h5p-text": {
+      "version": {
+        "major": "1",
+        "minor": "1"
+      },
+      "machineName": "H5P.Text",
+      "repository": "git@github.com:h5p/h5p-text.git"
+    },
+    "h5p-text-input-field": {
+      "version": {
+        "major": "1",
+        "minor": "2"
+      },
+      "machineName": "H5P.TextInputField",
+      "repository": "git@github.com:h5p/h5p-text-input-field.git"
+    },
+    "h5p-timeline": {
+      "version": {
+        "major": "1",
+        "minor": "1"
+      },
+      "machineName": "H5P.Timeline",
+      "repository": "git@github.com:h5p/h5p-timeline.git",
+      "dependencies": ["timelinejs"]
+    },
+    "h5p-transition": {
+      "version": {
+        "major": "1",
+        "minor": "0"
+      },
+      "machineName": "H5P.Transition",
+      "repository": "git@github.com:h5p/h5p-transition.git"
+    },
+    "h5p-true-false": {
+      "version": {
+        "major": "1",
+        "minor": "6"
+      },
+      "machineName": "H5P.TrueFalse",
+      "repository": "git@github.com:h5p/h5p-true-false.git",
+      "dependencies": [
+        "font-awesome",
+        "h5p-font-icons",
+        "h5p-joubel-ui",
+        "h5p-question",
+        "h5p-editor-radio-group"
+      ]
+    },
+    "h5p-twitter-user-feed": {
+      "version": {
+        "major": "1",
+        "minor": "0"
+      },
+      "machineName": "H5P.TwitterUserFeed",
+      "repository": "git@github.com:GriffWith/h5p-twitter-user-feed.git"
+    },
+    "h5p-video": {
+      "version": {
+        "major": "1",
+        "minor": "5"
+      },
+      "machineName": "H5P.Video",
+      "repository": "git@github.com:h5p/h5p-video.git",
+      "dependencies": ["flowplayer"]
+    },
+    "h5p-editor-collage": {
+      "version": {
+        "major": "0",
+        "minor": "3"
+      },
+      "machineName": "H5PEditor.Collage",
+      "repository": "git@github.com:h5p/h5p-editor-collage.git",
+      "dependencies": ["font-awesome", "h5p-collage"]
+    },
+    "h5p-editor-color-selector": {
+      "version": {
+        "major": "1",
+        "minor": "2"
+      },
+      "machineName": "H5PEditor.ColorSelector",
+      "repository": "git@github.com:h5p/h5p-editor-color-selector.git"
+    },
+    "h5p-editor-course-presentation": {
+      "version": {
+        "major": "1",
+        "minor": "22"
+      },
+      "machineName": "H5PEditor.CoursePresentation",
+      "repository": "git@bitbucket.org:calmisland/h5p-editor-course-presentation.git",
+      "dependencies": [
+        "font-awesome",
+        "h5p-advanced-text",
+        "h5p-appear-in",
+        "h5p-audio",
+        "h5p-blanks",
+        "h5p-continuous-text",
+        "h5p-course-presentation",
+        "h5p-dialogcards",
+        "h5p-drag-n-bar",
+        "h5p-drag-question",
+        "h5p-drag-text",
+        "h5p-exportable-text-area",
+        "h5p-font-icons",
+        "h5p-image",
+        "h5p-interactive-video",
+        "h5p-link",
+        "h5p-mark-the-words",
+        "h5p-multi-choice",
+        "h5p-single-choice-set",
+        "h5p-summary",
+        "h5p-table",
+        "h5p-true-false",
+        "h5p-twitter-user-feed",
+        "h5p-video",
+        "h5p-editor-color-selector",
+        "h5p-editor-radio-selector"
+      ]
+    },
+    "h5p-editor-drag-question": {
+      "version": {
+        "major": "1",
+        "minor": "10"
+      },
+      "machineName": "H5PEditor.DragQuestion",
+      "repository": "git@github.com:h5p/h5p-editor-drag-question.git",
+      "dependencies": [
+        "font-awesome",
+        "h5p-advanced-text",
+        "h5p-drag-n-bar",
+        "h5p-image",
+        "h5p-joubel-ui",
+        "h5p-editor-wizard",
+        "jquery-ui"
+      ]
+    },
+    "h5p-editor-duration": {
+      "version": {
+        "major": "1",
+        "minor": "1"
+      },
+      "machineName": "H5PEditor.Duration",
+      "repository": "git@github.com:h5p/h5p-editor-duration.git"
+    },
+    "h5p-editor-image-coordinate-selector": {
+      "version": {
+        "major": "1",
+        "minor": "2"
+      },
+      "machineName": "H5PEditor.ImageCoordinateSelector",
+      "repository": "git@github.com:h5p/h5p-editor-image-coordinate-selector.git",
+      "dependencies": ["font-awesome"]
+    },
+    "h5p-editor-image-hotspot-question": {
+      "version": {
+        "major": "1",
+        "minor": "8"
+      },
+      "machineName": "H5PEditor.ImageHotspotQuestion",
+      "repository": "git@github.com:h5p/h5p-editor-image-hotspot-question.git",
+      "dependencies": [
+        "h5p-drag-n-bar",
+        "h5p-drag-n-resize",
+        "h5p-image-hotspot-question"
+      ]
+    },
+    "h5p-editor-interactive-video": {
+      "version": {
+        "major": "1",
+        "minor": "22"
+      },
+      "machineName": "H5PEditor.InteractiveVideo",
+      "repository": "git@bitbucket.org:calmisland/h5p-editor-interactive-video.git",
+      "dependencies": [
+        "font-awesome",
+        "h5p-blanks",
+        "h5p-drag-n-bar",
+        "h5p-drag-question",
+        "h5p-drag-text",
+        "h5p-font-icons",
+        "h5p-go-to-question",
+        "h5p-guided-tour",
+        "h5p-image",
+        "h5p-interactive-video",
+        "h5p-link",
+        "h5p-mark-the-words",
+        "h5p-multi-choice",
+        "h5p-nil",
+        "h5p-questionnaire",
+        "h5p-single-choice-set",
+        "h5p-summary",
+        "h5p-table",
+        "h5p-text",
+        "h5p-true-false",
+        "h5p-editor-color-selector",
+        "h5p-editor-duration",
+        "h5p-editor-timecode"
+      ]
+    },
+    "h5p-editor-question-set-textual-editor": {
+      "version": {
+        "major": "1",
+        "minor": "3"
+      },
+      "machineName": "H5PEditor.QuestionSetTextualEditor",
+      "repository": "git@github.com:h5p/h5p-editor-question-set-textual-editor.git"
+    },
+    "h5p-editor-radio-group": {
+      "version": {
+        "major": "1",
+        "minor": "1"
+      },
+      "machineName": "H5PEditor.RadioGroup",
+      "repository": "git@github.com:h5p/h5p-editor-radio-group.git"
+    },
+    "h5p-editor-radio-selector": {
+      "version": {
+        "major": "1",
+        "minor": "2"
+      },
+      "machineName": "H5PEditor.RadioSelector",
+      "repository": "git@github.com:h5p/h5p-editor-radio-selector.git"
+    },
+    "h5p-editor-summary-textual-editor": {
+      "version": {
+        "major": "1",
+        "minor": "1"
+      },
+      "machineName": "H5PEditor.SummaryTextualEditor",
+      "repository": "git@github.com:h5p/h5p-editor-summary-textual-editor.git"
+    },
+    "h5p-editor-timecode": {
+      "version": {
+        "major": "1",
+        "minor": "2"
+      },
+      "machineName": "H5PEditor.Timecode",
+      "repository": "git@github.com:h5p/h5p-editor-timecode.git"
+    },
+    "h5p-editor-url-field": {
+      "version": {
+        "major": "1",
+        "minor": "2"
+      },
+      "machineName": "H5PEditor.UrlField",
+      "repository": "git@github.com:h5p/h5p-editor-url-field.git"
+    },
+    "h5p-editor-vertical-tabs": {
+      "version": {
+        "major": "1",
+        "minor": "3"
+      },
+      "machineName": "H5PEditor.VerticalTabs",
+      "repository": "git@github.com:h5p/h5p-editor-vertical-tabs.git",
+      "dependencies": ["font-awesome"]
+    },
+    "h5p-editor-wizard": {
+      "version": {
+        "major": "1",
+        "minor": "2"
+      },
+      "machineName": "H5PEditor.Wizard",
+      "repository": "git@github.com:h5p/h5p-editor-wizard.git",
+      "dependencies": ["h5p-font-icons"]
+    },
+    "h5p-image-sequencing": {
+      "version": {
+        "major": "1",
+        "minor": "1"
+      },
+      "machineName": "H5P.ImageSequencing",
+      "repository": "git@bitbucket.org:calmisland/h5p-image-sequencing",
+      "dependencies": [
+        "H5P.Timer",
+        "FontAwesome",
+        "H5P.JoubelUI",
+        "jQuery.ui",
+        "H5P.Audio",
+        "H5PEditor.VerticalTabs"
+      ]
+    },
+    "h5p-speak-the-words": {
+      "version": {
+        "major": "1",
+        "minor": "3"
+      },
+      "machineName": "H5P.SpeakTheWords",
+      "repository": "git@bitbucket.org:calmisland/h5p-speak-the-words",
+      "dependencies": ["H5P.Question", "FontAwesome"]
+    },
+    "h5p-image-multiple-hotspot-question": {
+      "version": {
+        "major": "1",
+        "minor": "6"
+      },
+      "machineName": "H5P.ImageSequencing",
+      "repository": "git@bitbucket.org:calmisland/h5p-image-multiple-hotspot-question",
+      "dependencies": [
+        "H5PEditor.Wizard",
+        "H5PEditor.ImageMultipleHotspotQuestion",
+        "H5P.Question"
+      ]
+    },
+    "jquery-ui": {
+      "version": {
+        "major": "1",
+        "minor": "10"
+      },
+      "machineName": "jQuery.ui",
+      "repository": "git@github.com:h5p/jquery-ui.git"
+    },
+    "mustache-js": {
+      "version": {
+        "major": "1",
+        "minor": "0"
+      },
+      "machineName": "MustacheJS",
+      "repository": "git@github.com:h5p/mustache-js.git"
+    },
+    "odometer": {
+      "version": {
+        "major": "1",
+        "minor": "0"
+      },
+      "machineName": "Odometer",
+      "repository": "git@github.com:h5p/odometer.git"
+    },
+    "shepherd": {
+      "version": {
+        "major": "1",
+        "minor": "0"
+      },
+      "machineName": "Shepherd",
+      "repository": "git@github.com:h5p/shepherd.git",
+      "dependencies": ["tether"]
+    },
+    "swfobject": {
+      "version": {
+        "major": "1",
+        "minor": "0"
+      },
+      "machineName": "swfobject",
+      "repository": "git@github.com:h5p/swfobject.git"
+    },
+    "tether": {
+      "version": {
+        "major": "1",
+        "minor": "0"
+      },
+      "machineName": "Tether",
+      "repository": "git@github.com:h5p/tether.git"
+    },
+    "timelinejs": {
+      "version": {
+        "major": "1",
+        "minor": "1"
+      },
+      "machineName": "TimelineJS",
+      "repository": "git@github.com:h5p/timelinejs.git"
+    }
+  }
+}
